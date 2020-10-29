@@ -1,0 +1,59 @@
+.node-rectangle{
+    width: 20px;
+    height: 20px;
+    border: .03px solid grey   ;
+}
+
+.node-itsAStart{
+    background-color: green;
+}
+
+.node-itsAFinish{
+    background-color: red;
+}
+
+.node-itsAWall{
+    background-color: black;
+}
+
+.node-itsvisited{
+    animation-name: visitedAnimation;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running; 
+  }
+  
+  @keyframes visitedAnimation {
+    0% {
+      transform: scale(1);
+      background-color: yellowgreen;
+      border-radius: 50%;
+    }
+
+    25% {
+      background-color: rgba(216, 213, 54, 0.836)
+    }
+  
+    50% {
+      background-color: rgba(255, 0, 106, 0.75);
+    }
+  
+    75% {
+      transform: scale(1.2);
+      background-color: rgba(217, 0, 152, 0.75);
+    }
+  
+    100% {
+      transform: scale(1);
+      background-color: rgba(220, 132, 241, 0.712);
+    }
+}
+
+
+.node-itsShortest{
+    background-color: yellow;
+}

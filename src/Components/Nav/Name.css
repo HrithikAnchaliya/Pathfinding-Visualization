@@ -1,0 +1,27 @@
+#name-div h5{
+    margin-top: 10px;
+    font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+    font-style: italic;
+    letter-spacing: .2em;
+    font-size: 25px;
+    position: relative;
+}
+
+#name-div h5::after{
+    left: 527px;
+    content: "";
+    display:block;
+    width:26.5%;
+    height:5.5px;
+    background-color:yellowgreen;
+    position: absolute;
+    bottom:14%;
+    z-index: -1;
+}
+
+@media screen and (min-width : 1450px) and (max-width : 1600px ){
+    #name-div h5::after{
+        left: 580px;
+        width:24.5%;
+    }
+}
