@@ -18,11 +18,15 @@ To Remove Walls
 
  - Its same as creating the walls (Left click and Drag)
 
+![About Nodes](https://user-images.githubusercontent.com/32984102/97610181-8cf19500-1a3a-11eb-89b1-555712a8a28c.gif)
+
 ## Settings
 
 To head to the settings, click the ***Settings*** button.
 
 You can also clear the *Grid*  after visualizing the route.
+
+![Clean Grid](https://imagizer.imageshack.com/img924/8295/vs8TGQ.gif)
 
 ## Diagonal
 
@@ -30,8 +34,13 @@ My Algorithm supports both diagonal and non-diagonal pathfinding.
 
 The Diagonal Option is in the Settings, Which is used to travel in 8-directions which means more accurate  distance between the nodes.
 
-## GO - Crazy
+
+
+## Go - Crazy
 
 Here's the fun part. You can literally go-crazy with this algorithm, like  create complex wall structure, build a maze to complicate things.
+
+![more walls](https://user-images.githubusercontent.com/32984102/97614947-a564ae00-1a40-11eb-84b9-6149277445b5.gif)
+
 
 *a project by Hrithik Anchaliya.*
