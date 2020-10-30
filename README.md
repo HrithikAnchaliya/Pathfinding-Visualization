@@ -34,6 +34,8 @@ My Algorithm supports both diagonal and non-diagonal pathfinding.
 
 The Diagonal Option is in the Settings, Which is used to travel in 8-directions which means more accurate  distance between the nodes.
 
+> Diagonal is kinda glitchy for now, will be fixed soon
+
 ![Non-Diagonal and Diagonal](https://user-images.githubusercontent.com/32984102/97692989-7ee95600-1ac6-11eb-92b6-9a7db6600e5e.gif)
 
 
