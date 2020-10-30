@@ -26,7 +26,7 @@ To head to the settings, click the ***Settings*** button.
 
 You can also clear the *Grid*  after visualizing the route.
 
-![Clean Grid](https://imagizer.imageshack.com/img924/8295/vs8TGQ.gif)
+![Clean Grid](https://drive.google.com/file/d/1OOtPxrf3Fyp91ik2xMNFDokdqCl_uIqQ/view)
 
 ## Diagonal
 
